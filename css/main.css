@@ -1,4 +1,17 @@
 
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width:1000px){
+  .container{
+    width: 500px;
+    background-color: aquag;
+  }
+}
+
+
 table {
   width: 100%;
   border-collapse: separate;
